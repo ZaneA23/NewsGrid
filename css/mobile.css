@@ -1,0 +1,23 @@
+#main-nav .container,
+#home-articles .articles-container,
+#showcase .showcase-container,
+#home-articles .articles-container > *:first-child,
+#home-articles .articles-container > *:last-child,
+.page-container,
+.page-container .l-heading,
+.page-container > *:first-child,
+#main-footer .footer-container,
+#main-footer .footer-container > *:last-child,
+#main-footer .footer-container > *:last-child {
+  grid-column: 1 / span 1;
+  grid-template-columns: repeat(1, auto);
+  justify-content: center;
+}
+
+#main-nav .social {
+  display: none;
+}
+
+#main-nav ul {
+  padding: 20px;
+}
